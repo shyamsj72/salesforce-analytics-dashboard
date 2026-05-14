@@ -1,18 +1,162 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Analytics Dashboard
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A beginner-friendly Salesforce CRM Analytics Dashboard project built using Apex, Lightning Web Components (LWC), SOQL, and Chart.js.
 
-## How Do You Plan to Deploy Your Changes?
+This project was created as part of hands-on Salesforce learning to understand real-world dashboard development and Salesforce frontend-backend integration.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+---
 
-## Configure Your Salesforce DX Project
+## 📸 Project Screenshots
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Add your screenshots inside a folder named:
 
-## Read All About It
+```text
+screenshots
+```
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Example:
+
+```text
+screenshots/dashboard.png
+screenshots/chart-view.png
+```
+
+Then display them in README like this:
+
+### Dashboard View
+
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+### Chart Analysis
+
+![Chart Screenshot](screenshots/chart-view.png)
+
+---
+
+## Features
+
+- Opportunity Pipeline Dashboard
+- Total Pipeline Value Calculation
+- Opportunity Count by Stage
+- Interactive Bar Chart using Chart.js
+- Apex Controller with SOQL Aggregation
+- Lightning Web Components (LWC)
+- Salesforce Static Resource Integration
+- Responsive Dashboard UI
+
+---
+
+## Technologies Used
+
+- Salesforce DX
+- Apex
+- Lightning Web Components (LWC)
+- SOQL
+- Chart.js
+- VS Code
+- Git & GitHub
+
+---
+
+## Project Structure
+
+```text
+force-app/main/default/
+│
+├── classes/
+│   ├── DashboardController.cls
+│   └── DashboardControllerTest.cls
+│
+├── lwc/
+│   └── dashboardAnalysis/
+│       ├── dashboardAnalysis.html
+│       ├── dashboardAnalysis.js
+│       └── dashboardAnalysis.js-meta.xml
+│
+└── staticresources/
+    └── chartjs
+```
+
+---
+
+## Dashboard Functionalities
+
+### Total Pipeline Value
+Displays total opportunity amount from Salesforce opportunities.
+
+### Opportunity Stage Analysis
+Shows opportunity count grouped by sales stage.
+
+### Interactive Charts
+Uses Chart.js for dynamic chart visualization.
+
+---
+
+## Sample Salesforce Concepts Covered
+
+- Apex @AuraEnabled methods
+- Aggregate SOQL Queries
+- LWC Lifecycle Hooks
+- Wire Service
+- Static Resource Loading
+- Component Rendering
+- Salesforce Metadata Deployment
+
+---
+
+## Learning Purpose
+
+This is a sample learning project created to practice:
+
+- Salesforce Development
+- Apex Programming
+- LWC Development
+- CRM Analytics Visualization
+- GitHub Version Control
+
+---
+
+## Setup Instructions
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/shyamsj72/salesforce-analytics-dashboard.git
+```
+
+### 2. Authorize Salesforce Org
+
+```bash
+sf org login web
+```
+
+### 3. Deploy Source
+
+```bash
+sf project deploy start
+```
+
+### 4. Upload Chart.js Static Resource
+
+- Download Chart.js
+- Go to Salesforce Setup → Static Resources
+- Upload file with name:
+
+```text
+chartjs
+```
+
+---
+
+## Author
+
+Shyam Jith
+
+GitHub:
+https://github.com/shyamsj72
+
+---
+
+## Disclaimer
+
+This project is built for learning and practice purposes only.
