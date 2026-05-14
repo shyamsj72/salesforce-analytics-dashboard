@@ -8,30 +8,11 @@ This project was created as part of hands-on Salesforce learning to understand r
 
 ## 📸 Project Screenshots
 
-Add your screenshots inside a folder named:
-
-```text
-screenshots
-```
-
-Example:
-
-```text
-screenshots/dashboard.png
-screenshots/chart-view.png
-```
-
-Then display them in README like this:
 
 ### Dashboard View
 
 ![Dashboard Screenshot](screenshots/dashboard.png)
 
-### Chart Analysis
-
-![Chart Screenshot](screenshots/chart-view.png)
-
----
 
 ## Features
 
@@ -150,7 +131,7 @@ chartjs
 
 ## Author
 
-Shyam Jith
+Shyamjith
 
 GitHub:
 https://github.com/shyamsj72
