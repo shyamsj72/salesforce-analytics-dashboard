@@ -1,0 +1,23 @@
+<template>
+  <div class="dashboard-container">
+
+    <!-- KPI Cards Row -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <p class="kpi-label">Total pipeline</p>
+        <p class="kpi-value">₹{pipelineValue}</p>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Open opportunities</p>
+        <p class="kpi-value">{opportunityCount}</p>
+      </div>
+    </div>
+
+    <!-- Chart -->
+    <div class="chart-card">
+      <p class="chart-title">Opportunities by stage</p>
+      <canvas lwc:ref="chartCanvas"></canvas>
+    </div>
+
+  </div>
+</template>
