@@ -1,9 +1,35 @@
-````markdown
 # Salesforce Analytics Dashboard
 
 A beginner-friendly Salesforce CRM Analytics Dashboard project built using Apex, Lightning Web Components (LWC), SOQL, and Chart.js.
 
 This project was created as part of hands-on Salesforce learning to understand real-world dashboard development and Salesforce frontend-backend integration.
+
+---
+
+## 📸 Project Screenshots
+
+Add your screenshots inside a folder named:
+
+```text
+screenshots
+```
+
+Example:
+
+```text
+screenshots/dashboard.png
+screenshots/chart-view.png
+```
+
+Then display them in README like this:
+
+### Dashboard View
+
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+### Chart Analysis
+
+![Chart Screenshot](screenshots/chart-view.png)
 
 ---
 
@@ -49,35 +75,32 @@ force-app/main/default/
 │
 └── staticresources/
     └── chartjs
-````
+```
 
 ---
 
 ## Dashboard Functionalities
 
 ### Total Pipeline Value
-
 Displays total opportunity amount from Salesforce opportunities.
 
 ### Opportunity Stage Analysis
-
 Shows opportunity count grouped by sales stage.
 
 ### Interactive Charts
-
 Uses Chart.js for dynamic chart visualization.
 
 ---
 
 ## Sample Salesforce Concepts Covered
 
-* Apex @AuraEnabled methods
-* Aggregate SOQL Queries
-* LWC Lifecycle Hooks
-* Wire Service
-* Static Resource Loading
-* Component Rendering
-* Salesforce Metadata Deployment
+- Apex @AuraEnabled methods
+- Aggregate SOQL Queries
+- LWC Lifecycle Hooks
+- Wire Service
+- Static Resource Loading
+- Component Rendering
+- Salesforce Metadata Deployment
 
 ---
 
@@ -85,11 +108,11 @@ Uses Chart.js for dynamic chart visualization.
 
 This is a sample learning project created to practice:
 
-* Salesforce Development
-* Apex Programming
-* LWC Development
-* CRM Analytics Visualization
-* GitHub Version Control
+- Salesforce Development
+- Apex Programming
+- LWC Development
+- CRM Analytics Visualization
+- GitHub Version Control
 
 ---
 
@@ -115,9 +138,9 @@ sf project deploy start
 
 ### 4. Upload Chart.js Static Resource
 
-* Download Chart.js
-* Go to Salesforce Setup → Static Resources
-* Upload file with name:
+- Download Chart.js
+- Go to Salesforce Setup → Static Resources
+- Upload file with name:
 
 ```text
 chartjs
@@ -127,16 +150,13 @@ chartjs
 
 ## Author
 
-Shyamjith
+Shyam Jith
 
 GitHub:
-[https://github.com/shyamsj72](https://github.com/shyamsj72)
+https://github.com/shyamsj72
 
 ---
 
 ## Disclaimer
 
 This project is built for learning and practice purposes only.
-
-```
-```
